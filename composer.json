@@ -1,5 +1,5 @@
 {
-  "name": "uwdoem/iss",
+  "name": "uwdoem/admissions",
   "description": "University of Washington `Boundless` themes for the Framework web framework.",
   "require": {
     "athens/core": "0.*",
