@@ -15,6 +15,150 @@ h1.site-title {
 }
 
 .dawgdrops-item.dawgdrops-item a {
-    padding: 5px 8px 20px 14px;
-    font-size: 16px !important;
+    /*padding: 5px 8px 20px 14px;*/
+    /*font-size: 16px !important;*/
+}
+
+.home-btn {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: url(https://admit.washington.edu/sites/all/themes/admituw_theme3/svg/uw-sprite.svg) no-repeat 0 0;
+    background-position: -255px -4px;
+}
+
+.uw-thinstrip .uw-wordmark {
+    top:0px;
+    height:75px;
+    background: url(https://admit.washington.edu/sites/all/themes/admituw_theme3/svg/uw-sprite.svg) no-repeat 0 0 transparent;
+    background-position: 0px -415px;
+}
+
+@media only screen and (max-width: 767px) {
+    .uw-thinstrip .uw-wordmark {
+        width: 155px;
+        height: 34px;
+        background: url(https://admit.washington.edu/sites/all/themes/admituw_theme3/svg/uw-sprite.svg) no-repeat 0 -184px transparent;
+        margin: 0;
+        float: none;
+        position: absolute;
+        left: 78px;
+        top: 4px;
+        background-size: 397px;
+    }
+
+    ul.uw-mobile-menu {
+        overflow: hidden;
+        display: block;
+        margin: 0;
+        padding: 5px 0 0;
+        box-shadow: 0 0 3px rgba(0,0,0,.5);
+        position: relative;
+        z-index: 1;
+    }
+
+    ul.uw-mobile-menu.first-level {
+        width:100%;
+        top:-4px;
+    }
+
+    ul.uw-mobile-menu .uw-mobile-menu-toggle {
+        margin-top: 10px;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    ul.uw-mobile-menu .menu-dropdowns-container {
+        clear:right;
+    }
+
+
+    ul.uw-mobile-menu .uw-mobile-menu-toggle {
+        display: block;
+        position: relative;
+        float: right;
+        margin-top: 12px;
+        margin-right: 0;
+        font-size: 14.17px;
+        line-height: 1.43518333;
+        font-family: "Encode Sans Compressed",sans-serif;
+        font-weight: 800;
+        text-align: center;
+        width: 50px;
+        height: 30px;
+        text-transform: uppercase;
+        color: #4b2e83;
+        background: url(https://admit.washington.edu/sites/all/themes/admituw_theme3/svg/uw-sprite.svg) no-repeat -475px 20px transparent;
+        background-size: 1200px;
+    }
+
+    ul.uw-mobile-menu .uw-mobile-menu-toggle:before {
+        content: "";
+        position: absolute;
+        right: 55px;
+        top: -4px;
+        width: 20px;
+        height: 40px;
+        background: url(https://admit.washington.edu/sites/all/themes/admituw_theme3/svg/uw-sprite.svg) no-repeat -600px 0 transparent;
+    }
+}
+
+#quicklinks ul, ol {
+    margin-left: 0;
+}
+
+#uw-container #quicklinks ul li span {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url(http://admit.washington.edu/sites/all/themes/admituw_theme3/svg/uw-sprite.svg) no-repeat 0 0;
+}
+
+#uw-container #quicklinks ul li {
+    display: block;
+    width: 100%;
+    padding: 14px 0 0 0;
+}
+
+#uw-container #quicklinks ul li span.icon-directories {
+    background-position: -84px -303px;
+}
+
+#uw-container #quicklinks ul li span.icon-contact {
+    background-position: -378px -303px;
+}
+
+#uw-container #quicklinks ul li span.icon-calendar {
+    background-position: -39px -303px;
+}
+
+#uw-container #quicklinks ul li span.icon-libraries {
+    background-position: -129px -303px;
+}
+
+#uw-container #quicklinks ul li span.icon-maps {
+    background-position: 6px -303px;
+}
+
+#uw-container #quicklinks ul li span.icon-uwtoday {
+    background-position: -219px -303px;
+}
+
+#uw-container #quicklinks ul li a {
+    font-family: "Encode Sans Compressed",sans-serif;
+    font-size: 19px;
+    margin-left: 15px;
+}
+
+#uw-container #quicklinks ul li a:hover, #uw-container #quicklinks ul li a:focus {
+    color: #ffd800;
+}
+
+#uw-container #quicklinks ul li span.icon-social {
+    background-position: -218px -352px;
+}
+
+#uw-container #quicklinks ul li span.icon-campus {
+    background-position: -306px -303px;
 }

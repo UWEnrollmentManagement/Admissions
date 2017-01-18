@@ -4,7 +4,8 @@
 {% block head %}
     <link rel="stylesheet" href="vendor/uwdoem/boundless/assets/uw-brand/css/full.css">
     {{ parent() }}
-    <link rel="stylesheet" href="vendor/uwdoem/iss/assets/css/style.css">
+    <link rel="stylesheet" href="vendor/uwdoem/admissions/assets/css/style.css">
+    <script type='text/javascript' src='vendor/uwdoem/admissions/assets/js/site.js'></script>
 {% endblock head %}
 
 
@@ -16,12 +17,7 @@
                 <ul class="uw-thin-links">
                     <li>
                         <a href="http://uw.edu/studentlife" title=
-                        "Students">Students</a>
-                    </li>
-
-                    <li>
-                        <a href="http://uw.edu/parents" title=
-                        "Parents">Parents</a>
+                        "Current Students">Current Students</a>
                     </li>
 
                     <li>
@@ -65,23 +61,89 @@
                                                         "University of Washington Home">Home</a>
         </div>
     </header>
-    
-    <nav id="dawgdrops" aria-label="Main menu" role="navigation"><div class="dawgdrops-inner container page-width" role="application"><ul id="menu-mainnav" class="dawgdrops-nav">
-                <li class="dawgdrops-item"><a href="https://iss.washington.edu/new-students/" title="New Students" id="62">New Students</a></li>
-                <li class="dawgdrops-item"><a href="https://iss.washington.edu/returning-students/" title="Returning Students" id="63">Returning Students</a></li>
-                <li class="dawgdrops-item"><a href="https://iss.washington.edu/rules-regulations/" title="Regulations" id="954">Regulations</a></li>
-                <li class="dawgdrops-item"><a href="https://iss.washington.edu/travel-visas/" title="Travel and Visas" id="help">Travel &amp; Visas</a></li>
-                <li class="dawgdrops-item"><a href="https://iss.washington.edu/employment-options/" title="Employment and Internships" id="help">Employment &amp; Internships</a></li>
-                <li class="dawgdrops-item"><a href="https://iss.washington.edu/procedures/" title="Updates" id="help">Updates</a></li>
-                <li class="dawgdrops-item"><a href="https://iss.washington.edu/student-life/" title="Student Life" id="help">Student Life</a></li>
-                <li class="dawgdrops-item"><a href="https://iss.washington.edu/about-us/" title="About Us" id="help">About Us</a></li>
-            </ul></div></nav>
 
-    <div class="uw-hero-image">
-        <div class="page-width">
-            <h1 class="site-title">International Student Services</h1>
+    <nav aria-label="Main menu" id="dawgdrops" role="navigation"  style="" >
+        <div class="dawgdrops-inner container page-width" role="application">
+            <ul class="dawgdrops-nav" id="menu-dropdowns">
+                <li class="dawgdrops-item">
+                    <a class="home-btn-link" title="Undergraduate Admissions Home" href="https://admit.washington.edu/"><span class="home-btn"></span></a>
+                </li>
+                <li class="dawgdrops-item">
+                    <a aria-controls="menu-why-uw" aria-expanded="false" aria-haspopup="true" class="dropdown-toggle"  href="https://admit.washington.edu/why-uw" id="why-uw" title="Why UW?">Why UW?</a>
+                    <ul aria-expanded="false" aria-labelledby="why-uw" class="dawgdrops-menu" id="" role="group">
+                        <li><a href="https://admit.washington.edu/why-uw/about" id="about-uw" tabindex="-1" title="About UW">About UW</a></li>
+                        <li><a href="https://admit.washington.edu/why-uw/academics" id="academics" tabindex="-1" title="Quick Facts">Academics</a></li>
+                        <li><a href="https://admit.washington.edu/why-uw/student-life" id="student-life" tabindex="-1" title="Student Life">Student life</a></li>
+                        <li><a href="https://www.hfs.washington.edu/#gsc.tab=0" id="housing-dining" tabindex="-1" title="Housing &amp; dining">Housing &amp; dining</a></li>
+                        <li><a href="https://admit.washington.edu/why-uw/seattle-and-the-pacific-northwest" id="seattle-and-the-pacific-northwest" tabindex="-1" title="Seattle &amp; the Pacific Northwest">Seattle &amp; the Pacific Northwest</a></li>
+                        <li><a href="http://www.washington.edu/diversity/" id="diversity" tabindex="-1" title="Diversity">Diversity</a></li>
+
+                    </ul>
+                </li>
+                <li class="dawgdrops-item">
+                    <a aria-controls="menu-visit" aria-expanded="false" aria-haspopup="true" class="dropdown-toggle"  href="https://admit.washington.edu/visit" id="link-visit" title="Visit">Visit</a>
+                    <ul aria-expanded="false" aria-labelledby="visit" class="dawgdrops-menu" id="menu-visit" role="group">
+                        <li><a href="https://admit.washington.edu/visit/campus-tour" id="campus-tour-and-freshman-information-session" tabindex="-1" title="Campus tour &amp; freshman information session">Campus tour &amp; freshman information session</a></li>
+                        <li><a href="https://admit.washington.edu/visit/transfer-thursday" id="transfer-thursday" tabindex="-1" title="Transfer Thursday">Transfer Thursday</a></li>
+                        <li><a href="https://admit.washington.edu/visit/sample-a-class" id="sample-a-class" tabindex="-1" title="Sample a class">Sample a class</a></li>
+                        <li><a href="https://admit.washington.edu/visit/group-tours" id="group-tours-request" tabindex="-1" title="Group tours request">Group tours request</a></li>
+                        <li><a href="https://admit.washington.edu/visit/getting-here" id="getting-here" tabindex="-1" title="Getting here">Getting here</a></li>
+                        <li><a href="https://admit.washington.edu/contact/uw-in-your-area" id="uw-in-your-area" tabindex="-1" title="UW in your area">UW in your area</a></li>
+                        <li><a href="https://admit.washington.edu/visit/admitted-student-preview" id="admitted-student-preview" tabindex="-1" title="Admitted Student Preview">Admitted Student Preview</a></li>
+                    </ul>
+                </li>
+                <li class="dawgdrops-item">
+                    <a aria-controls="menu-apply" aria-expanded="false" aria-haspopup="true" class="dropdown-toggle"  href="https://admit.washington.edu/apply" id="link-apply" title="Apply">Apply</a>
+                    <ul aria-expanded="false" aria-labelledby="visit" class="dawgdrops-menu" id="menu-apply" role="group">
+                        <li><a href="https://admit.washington.edu/apply/freshman" id="freshman" tabindex="-1" title="Freshman">Freshman</a></li>
+                        <li><a href="https://admit.washington.edu/apply/transfer" id="transfer" tabindex="-1" title="Transfer">Transfer</a></li>
+                        <li><a href="https://admit.washington.edu/apply/postbaccalaureate" id="postbaccalaureate" tabindex="-1" title="Postbaccalaureate">Postbaccalaureate</a></li>
+                        <li><a href="https://admit.washington.edu/apply/applied" id="applied" tabindex="-1" title="Applied">Applied</a></li>
+                        <li><a href="https://admit.washington.edu/apply/admitted" id="admitted" tabindex="-1" title="Admitted">Admitted</a></li>
+                        <li><a href="https://admit.washington.edu/apply/summer" id="uw-just-for-summer" tabindex="-1" title="UW just for summer">UW just for summer</a></li>
+                        <li><a href="https://admit.washington.edu/apply/my-application-type" id="what-kind-of-applicant" tabindex="-1" title="What&#39;s my application type&#63;">What&#39;s my application type&#63;</a></li>
+                    </ul>
+                </li>
+                <li class="dawgdrops-item">
+                    <a aria-controls="menu-costs-and-financial-aid" aria-expanded="false" aria-haspopup="true" class="dropdown-toggle"  href="https://admit.washington.edu/costs-and-financial-aid" id="link-costs-and-financial-aid" title="Costs &amp; Financial Aidply">Costs &amp; Financial Aid</a>
+                    <ul aria-expanded="false" aria-labelledby="costs-and-financial-aid" class="dawgdrops-menu" id="menu-costs-and-financial-aid" role="group">
+                        <li><a href="https://admit.washington.edu/costs-and-financial-aid/total-cost-of-attendance" id="total-cost-of-attendance" tabindex="-1" title="Total cost of Aatendance">Total cost of attendance</a></li>
+                        <li><a href="https://www.washington.edu/financialaid/" id="financial-aid" tabindex="-1" title="Financial Aid">Financial Aid</a></li>
+                        <li><a href="http://www.washington.edu/huskypromise/" id="husky-promise" tabindex="-1" title="Husky Promise">Husky Promise for Washington residents</a></li>
+                        <li><a href="https://registrar.washington.edu/students/residency/" id="washington-residency" tabindex="-1" title="Washington residency">Washington residency</a></li>
+                        <li><a href="https://admit.washington.edu/costs-and-financial-aid/scholarships" id="scholarships" tabindex="-1" title="Scholarships">Scholarships</a></li>
+                        <li><a href="http://www.get.wa.gov/" id="get" tabindex="-1" title="Guaranteed Education Tuition">Guaranteed Education Tuition (GET)</a></li>
+                    </ul>
+                </li>
+                <li class="dawgdrops-item">
+                    <a aria-controls="menu-contact" aria-expanded="false" aria-haspopup="true" class="dropdown-toggle"  href="https://admit.washington.edu/contact" id="contact" title="Contact">Contact</a>
+                    <ul aria-expanded="false" aria-labelledby="contact" class="dawgdrops-menu" id="menu-contact" role="group">
+                        <li><a href="https://admit.washington.edu/contact/join-the-the-email-list" id="join-the-email-list" tabindex="-1" title="Join the email list">Join the email list</a></li>
+                        <li><a href="https://admit.washington.edu/contact/find-your-admissions-counselor" id="find-your-admissions-counselor" tabindex="-1" title="Find your Admissions counselor">Find your Admissions counselor</a></li>
+                        <li><a href="https://admit.washington.edu/contact/admissions-staff-directory" id="admissions-staff-directory" tabindex="-1" title="Admissions staff directory">Admissions staff directory</a></li>
+                        <li><a href="https://admit.washington.edu/contact/for-high-school-counselors" id="high-school-counselors" tabindex="-1" title="For HS counselors">For HS counselors</a></li>
+                        <li><a href="https://admit.washington.edu/contact/uw-in-your-area" id="uw-in-your-area" tabindex="-1" title="UW in your area">UW in your area</a></li>
+                        <li><a href="https://www.washington.edu/maps/" id="campus-map" tabindex="-1" title="Campus map<">Campus map</a></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
-    </div>
+    </nav>
+
+    <nav aria-label="relative" role="navigation">
+        <ul class="uw-mobile-menu first-level"><div class="uw-mobile-menu-toggle" onClick="$('.uw-mobile-menu .menu-dropdowns-container').toggle();">Menu</div>
+            <div class="menu-dropdowns-container" style="display: none;">
+                <ul class="" id="menu-dropdowns-1">
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children" id=""><a href="">Home</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children" id=""><a href="https://admit.washington.edu/why-uw">Why UW?</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children" id=""><a href="https://admit.washington.edu/visit">Visit</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children" id=""><a href="https://admit.washington.edu/apply">Apply</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children" id=""><a href="https://admit.washington.edu/costs-and-financial-aid">Costs &amp; Financial Aid</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children" id=""><a href="https://admit.washington.edu/contact">Contact</a></li>
+                </ul>
+            </div>
+        </ul>
+    </nav>
 
 {% endblock navheader %}
 
@@ -122,7 +184,7 @@
             </ul>
         </nav>
 
-        <p role="contentinfo">&copy; {{ "now"|date("Y") }} University of Washington  |  Seattle, WA</p>
+        <p role="contentinfo">&copy; {{ "now"|date("Y") }} University of Washington |  Seattle, WA</p>
 
     </div>
 {% endblock footer %}

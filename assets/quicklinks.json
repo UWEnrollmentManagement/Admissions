@@ -1,0 +1,110 @@
+[
+  {
+    "ID": 297,
+    "menu_item_parent": "0",
+    "title": "Calendar",
+    "url": "http://uw.edu/calendar",
+    "classes": [
+      "icon-calendar"
+    ]
+  },
+  {
+    "ID": 298,
+    "menu_item_parent": "0",
+    "title": "Directories",
+    "url": "http://uw.edu/directory/",
+    "classes": [
+      "icon-directories"
+    ]
+  },
+  {
+    "ID": 299,
+    "menu_item_parent": "0",
+    "title": "Libraries",
+    "url": "http://www.lib.washington.edu/",
+    "classes": [
+      "icon-libraries"
+    ]
+  },
+  {
+    "ID": 300,
+    "menu_item_parent": "0",
+    "title": "Maps",
+    "url": "http://uw.edu/maps",
+    "classes": [
+      "icon-maps"
+    ]
+  },
+  {
+    "ID": 301,
+    "menu_item_parent": "0",
+    "title": "UW Today",
+    "url": "http://www.uw.edu/news",
+    "classes": [
+      "icon-uwtoday"
+    ]
+  },
+  {
+    "ID": 305,
+    "menu_item_parent": "0",
+    "title": "UW Bothell",
+    "url": "http://www.bothell.washington.edu/",
+    "classes": [
+      "icon-campus"
+    ]
+  },
+  {
+    "ID": 306,
+    "menu_item_parent": "0",
+    "title": "UW Tacoma",
+    "url": "http://www.tacoma.uw.edu/",
+    "classes": [
+      "icon-campus"
+    ]
+  },
+  {
+    "ID": 400,
+    "menu_item_parent": "0",
+    "title": "UW Social Media",
+    "url": "https://www.washington.edu/social/",
+    "classes": [
+      "icon-social"
+    ]
+  },
+  {
+    "ID": 501,
+    "menu_item_parent": "0",
+    "title": "Freshman",
+    "url": "https://admit.washington.edu/apply/freshman",
+    "classes": [
+      "icon-directories"
+    ]
+  },
+  {
+    "ID": 502,
+    "menu_item_parent": "0",
+    "title": "Transfer",
+    "url": "https://admit.washington.edu/apply/transfer",
+    "classes": [
+      "icon-directories"
+    ]
+  },
+  {
+    "ID": 503,
+    "menu_item_parent": "0",
+    "title": "Postbaccalaureate",
+    "url": "https://admit.washington.edu/apply/postbaccalaureate",
+    "classes": [
+      "icon-directories"
+    ]
+  },
+  {
+    "ID": 504,
+    "menu_item_parent": "0",
+    "title": "Contact",
+    "url": "https://admit.washington.edu/Contact/",
+    "classes": [
+      "icon-contact"
+    ]
+  }
+]
